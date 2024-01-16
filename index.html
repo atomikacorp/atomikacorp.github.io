@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta nature-org</title>
+    <link href="css/style.css" rel="stylesheet">
+   
+
+    <link rel="icon" type="image/x-icon" href="images/ATOMIKA.png">
+  </head>
+  <body>
+
+    <div id="cabecera">
+      <div class="container">
+        <div class="atom-loader">
+          <div class="elipse elipse-1"></div>
+          <div class="elipse elipse-2"></div>
+          <div class="elipse elipse-3"></div>
+      </div>
+        <div class="title">
+          <!-- Coloca tu título aquí -->
+          <h2>CORPORACIÓN DE ENERGÍA NUCLEAR Y PROTECCIÓN RADIOLÓGICA ATOMIKA</h2>
+         
+
+        </div>
+      </div>
+      <h1>FORMULARIO ÚNICO DE DOSIMETRÍA</h1>
+      <p id="description">El presente formulario es requerido para el correcto llenado del contrato por Servicio de Dosimetría personal Externa. 
+        Se ruega llenar este formulario con detenimiento, si tuviese alguna duda por favor contáctese con nuestro personal.</p>
+    
+    </div>
+
+    <div id="formulario">
+      <h2>DATOS PARA EL CONTRATO</h2>
+      <h3>DATOS DEL REPRESENTANTE LEGAL</h3>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Nombre Completo</label>
+          <input type="text" id="name" class="form-input" placeholder="Juan Perez" required>
+      </div>
+      <div class="form-group">
+          <label for="ci" id="ci-label">Nro. de documento C.I. y lugar de emisión</label>
+          <input type="text" id="ci" class="form-input" placeholder="9460968 Cochabamba" required>
+      </div>
+      <div class="form-group">
+          <label for="position" id="position-label">Cargo</label>
+          <input type="text" id="position" class="form-input" placeholder="DIRECTORA HRSJDD" required>
+      </div>
+      <div class="form-group">
+          <label for="phone" id="phone-label">Teléfono</label>
+          <input type="number" id="phone" class="form-input" placeholder="74589245" required>
+      </div>
+      <h3>DATOS DE LA INSTITUCIÓN <br>
+         (Por favor llene los datos de la modalidad bajo la cual será firmado el contrato)</h3>
+
+         <div class="form-group">
+          <label for="serviceUnit" id="serviceUnit-label">Unidad para la cual está destinado el servicio </label>
+          <input type="text" id="serviceUnit" class="form-input" placeholder="Rayos X, imagenología, gamagrafía" required>
+      </div>
+      <div class="form-group">
+          <label for="institutionType" id="institutionType-label">Tipo de institución</label>
+          <input type="text" id="institutionType" class="form-input" placeholder="Pública o privada" required>
+      </div>
+
+      <h4 class="subt" style="cursor: pointer; padding: 10px; border: 1px solid; border-radius: 5px; display: inline-block;">EN CASO DE SER PERSONA JURÍDICA</h4>
+      <div class="content" style="display: none;">
+      <div class="form-group">
+          <label for="commerceRegistration" id="commerceRegistration-label">Matrícula de comercio</label>
+          <input type="text" id="commerceRegistration" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="address" id="address-label">Dirección</label>
+          <input type="text" id="address" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="notarialTestimonyNumber" id="notarialTestimonyNumber-label">N° en el testimonio de poder notarial</label>
+          <input type="text" id="notarialTestimonyNumber" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="notarialTestimonyDate" id="notarialTestimonyDate-label">Fecha del testimonio de poder notarial</label>
+          <input type="text" id="notarialTestimonyDate" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="notaryName" id="notaryName-label">Nombre del notario </label>
+          <input type="text" id="notaryName" class="form-input" placeholder="" required>
+      </div>
+    </div>
+
+      <h4 class="subt" style="cursor: pointer; padding: 10px; border: 1px solid; border-radius: 5px; display: inline-block;">EN CASO DE SER PERSONA NATURAL</h4>
+      <div class="content" style="display: none;">
+
+      <div class="form-group">
+          <label for="commerceRegistration2" id="commerceRegistration2-label">Matrícula de comercio</label>
+          <input type="number" id="commerceRegistration2" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="nit" id="nit-label">NIT</label>
+          <input type="number" id="nit" class="form-input" placeholder="" required>
+      </div>
+      </div>
+
+      <h4>DATOS PARA LA FACTURACIÓN  Y COBRANZA</h4>
+      <div class="form-group">
+          <label for="socialReason" id="socialReason-label">Nombre o razón social</label>
+          <input type="text" id="socialReason" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="nitOrCi" id="nitOrCi-label">NIT o C.I.</label>
+          <input type="text" id="nitOrCi" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="billingPerson" id="billingPerson-label">Nombre de persona responsable de facturación y cobranza en su institución</label>
+          <input type="text" id="billingPerson" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="position" id="position-label">Cargo</label>
+          <input type="text" id="position" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="phone" id="phone-label">Teléfono</label>
+          <input type="text" id="phone" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+          <label for="email" id="email-label">Correo electrónico, para hacerle llegar las facturas.</label>
+          <input type="email" id="email" class="form-input" placeholder="example@example.com" required>
+      </div>
+      <h3>DATOS PARA SERVICIOS</h3>
+       
+        <div class="form-group">
+          <label for="tipoc" id="tipoc-label">Tipo de contrato (con envío sin envío)</label>
+          <input type="number" id="tipoc" class="form-input" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="cantidad" id="cantidad-label">Cantidad de dosímetros personales</label>
+          <input type="number" id="cantidad" class="form-input" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="cantidad2" id="cantidad2-label">Cantidad de dosímetros ambientales</label>
+          <input type="number" id="cantidad2" class="form-input" placeholder=""  required>
+        </div>
+        
+
+        <div id="form-group">
+          <p>Tipo de cancelación (Anual o mensual; por favor explicar si requiere algún tipo de colaboración para realizar los pagos como:
+             retenciones, cartas de solicitud de pago, facturación adelantada)</p>
+          <textarea
+            id="comments"
+            placeholder=""
+            required
+            rows="10">
+          </textarea>
+        </div>
+
+        <h3>DATOS DE RESPONSABLE DE PROTECCIÓN RADIOLÓGICA</h3>
+
+        <div class="form-group">
+          <label for="namepo" id="namepo-label">Nombre de responsable de protección radiológica</label>
+          <input type="text" id="namepo" class="form-input" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="nametel" id="nametel-label">Teléfono</label>
+          <input type="number" id="nametel" class="form-input" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="namail" id="namail-label">Email</label>
+          <input type="text" id="namail" class="form-input" placeholder="" required>
+        </div>
+
+       <h3>DATOS PARA LA RECEPCION Y DESPACHO DE DOSIMETROS</h3>
+
+       <div class="form-group">
+        <label for="nares" id="nares-label">Responsable de recepción y despacho de los dosímetros</label>
+        <input type="text" id="nares" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+        <label for="nacar" id="nacar-label">Cargo</label>
+        <input type="text" id="nacar" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+        <label for="natel" id="natel-label">Teléfono</label>
+        <input type="number" id="natel" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+        <label for="nadad" id="nadad-label">Ciudad en la que se encuentra</label>
+        <input type="text" id="nadad" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+        <label for="naen" id="naen-label">Dirección para la entrega</label>
+        <input type="text" id="naen" class="form-input" placeholder="" required>
+      </div>
+      <div class="form-group">
+        <label for="naho" id="naho-label">Horario de atención</label>
+        <input type="text" id="naho" class="form-input" placeholder="" required>
+      </div>
+
+      </form>
+    </div>
+
+  <div id="inputForm">
+    <div class="input-field">
+        <h2>Datos del personal de portadores de dosímetros</h2>
+       
+    </div>
+</div>
+  <button onclick="addFields()">Agregar personal</button>
+
+
+  <button type="submit" id="submit">Enviar</button>
+
+<script src="code.js"></script>
+
+  </body>
+</html>
