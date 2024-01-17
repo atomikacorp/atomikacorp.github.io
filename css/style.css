@@ -144,7 +144,13 @@ h2{
   box-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
-
+.subt{
+  cursor: pointer;
+  padding: 10px; 
+  border: 1px solid; 
+  border-radius: 5px;
+  display: inline-block;
+}
 
 #formulario div{
   background-color: rgba(105, 105, 105, 0.5); /* color de fondo gris */
@@ -162,6 +168,20 @@ h2{
 #formulario div:hover{
   box-shadow: 0 0 20px rgb(255, 255, 255);
 }
+#formulario div.content{
+  background-color: inherit; /* quita el color de fondo gris */
+  border: none; /* quita el borde */
+  border-radius: 0; /* quita el borde redondeado */
+  width: auto; /* restablece el ancho */
+  margin: 0; /* restablece los márgenes */
+  padding: 0; /* restablece el padding */
+  font-size: medium; /* restablece el tamaño de fuente */
+  line-height: normal; /* restablece la altura de línea */
+}
+#formulario div.content{
+  box-shadow: none; /* quita la sombra */
+}
+
 
 .form-input {
   width: 60%;
@@ -198,7 +218,7 @@ button{
   font-weight: bold;
   text-align: center;
   background-color: rgb(105, 105, 105); /* color de fondo gris */
-  color: rgb(169, 169, 169); /* color de texto gris */
+  color: rgb(206, 206, 206); /* color de texto gris */
   border: 3px solid rgb(169, 169, 169); /* borde gris */
   box-shadow: 0 0 20px rgb(255, 255, 255);
   display: block;
@@ -210,9 +230,10 @@ button{
 }
 
 button:hover{
-  background-color: white;
+  background-color: rgb(235, 232, 232);
   cursor: pointer;
   align-self: center;
+  color: black;
 }
 
 
